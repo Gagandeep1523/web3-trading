@@ -1,0 +1,18 @@
+ds_gagandeep singh
+/
+├── notebook_1.ipynb                  # Your main Colab/Jupyter notebook
+├── notebook_2.ipynb                  # Optional additional notebook
+├── csv_files/
+│   ├── historical_data.csv           # Original trader dataset
+│   ├── fear_greed_index.csv          # Original sentiment dataset
+│   └── merged_trader_sentiment.csv   # Processed dataset after aggregation & merge
+├── outputs/
+│   ├── market_sentiment.png          # Distribution of Fear vs Greed days
+│   ├── pnl_distribution.png          # Boxplot of daily PnL under Fear vs Greed
+│   ├── volume_vs_sentiment.png       # Boxplot of trading volume vs sentiment
+│   ├── leverage_vs_pnl.png           # Scatterplot of leverage vs PnL
+│   ├── pnl_time_series.png           # Time-series of daily PnL over dates
+│   ├── volume_time_series.png        # Time-series of daily trading volume over dates
+│   └── correlation_matrix.png        # Heatmap of correlation between numeric trader metrics
+├── ds_report.pdf                      # Final summarized insights and explanations
+└── README.md                          # Optional notes or setup instructions
